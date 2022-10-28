@@ -5,8 +5,50 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tesla project with HTML and CSS</title>
+  <link rel="stylesheet" href="/style/background.css" />
+  <link rel="stylesheet" href="/style/button.css" />
+  <link rel="stylesheet" href="/style/panel.css" />
+  <link rel="stylesheet" href="/style/text.css" />
+  <meta name="description" content="Tesla project built with html and css" />
 </head>
+
 <body>
-  <h1>Welcome</h1>
+  <!-- model 3 -->
+  <div
+    class="background"
+    id="model-3"
+    style="
+      --bgi: url(/image/model-3-mobile.jpg);
+      --bgid: url(/image/model-3.jpg) ">
+    <div class="panel">
+      <h1 class="title">Model 3</h1>
+      <p class="text">Order online for</p>
+      <a class="link" href="#model-3" title="Order online for touchless delivery">Touchless delivery</a>
+    </div>
+
+    <div class="box-large">
+      <div class="box-small">
+        <button class="button-dark">Custom order</button>
+        <button class="button-light">Existing delivery</button>
+      </div>
+      <a class="arrow-down" href="#model-y">
+        <svg width="48" height="48" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" >
+          <g
+            id="layer1"
+            inkscape:label="Layer 1"
+            inkscape:groupmode="layer"
+            transform="translate(-136 -244.36)" >
+            <path
+            id="path6254"
+            sodipodi:nodetypes="ccccc"
+            style="stroke-linejoin:round;fill-rule:evenodd;stroke:#000000;stroke-linecap:round;stroke-width:2;fill:#ffffff"
+            d="m167 245.36l-15 30-15-30 15 10 15-10z" />
+          </g>
+        </svg>
+      </a>
+    </div>
+</div>
+
+
 </body>
 </html>

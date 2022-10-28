@@ -1,0 +1,20 @@
+.background {
+  width: 100vw;
+  height: 100vh;
+  background-image: var(--bgi);
+  /*background-image: url(/image/model-3-mobile.jpg); */
+  background-size: cover;
+  background-position: center;
+
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+  .background {
+    background-image: var(--bgid);
+  }
+}
