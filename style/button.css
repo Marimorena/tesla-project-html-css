@@ -1,0 +1,59 @@
+.button-dark,
+.button-light {
+  width: 256;
+  height: 40;
+  border: 0;
+  border-radius: 20px;
+
+  transition: 250ms;
+  text-transform: uppercase;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.button-dark {
+  color: #fff;
+  background-color: #181b21;
+}
+
+.button-dark:hover {
+  background-color: var(--color-mercury);
+  color: var(--color-dark);
+}
+
+.button-light {
+  color: #000;
+  background-color: #e3e3e3;
+}
+
+.button-light:hover {
+  background-color: var(--color-shark);
+  color: var(--color-light)
+}
+
+.arrow-down,
+.arrow-up {
+  width: 48px;
+  height: 48px;
+
+  transition: 250ms;
+  align-self: center;
+
+  border-radius: 50%;
+  fill: var(--color-shark);
+}
+
+.arrow-down {
+  cursor: s-resize;
+}
+
+.arrow-up {
+  cursor: n-resize;
+  transform: rotate(180deg);
+}
+
+.arrow-down:hover,
+.arrow-up:hover {
+  background-color: var(--color-shark);
+  fill: var(--color-mercury);
+}
