@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:wght@400;700&display=swap');
+
+/* root or the entire html doc, used mostly to declare css variables */
+
+:root {
+  /* color */
+  --color-gray-tuna: #393c41;
+  --color-shark: #181b21;
+  --color-mercury: #e3e3e3;
+  --color-light: #fff;
+
+  /* config */
+  --color-dark: #000;
+  --border-radius: 20px;
+}
+
+
+/*    * is the universal selector   */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--color-shark);
+}
+
+.box-large,
+.box-small {
+  display: flex;
+  flex-direction: column;
+}
+
+.box-large {
+  gap: 64px;
+}
+
+.box-small {
+  gap: 16px;
+}

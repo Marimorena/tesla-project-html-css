@@ -28,7 +28,7 @@
 
 .button-light:hover {
   background-color: var(--color-shark);
-  color: var(--color-light)
+  color: var(--color-light);
 }
 
 .arrow-down,
@@ -49,7 +49,7 @@
 
 .arrow-up {
   cursor: n-resize;
-  transform: rotate(180deg);
+  transform: rotate(180deg) !important;
 }
 
 .arrow-down:hover,
